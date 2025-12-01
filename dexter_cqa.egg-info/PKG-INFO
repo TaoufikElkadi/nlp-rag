@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: dexter-cqa
 Version: 1.0.9
 Summary: A Benchmark for Complex Heterogeneous Question answering
@@ -15,8 +15,42 @@ Classifier: Programming Language :: Python :: 3.8
 Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
-Provides-Extra: tf
 License-File: LICENSE.md
+Requires-Dist: sentence-transformers
+Requires-Dist: pytrec_eval
+Requires-Dist: bert_score
+Requires-Dist: faiss_cpu
+Requires-Dist: elasticsearch==7.9.1
+Requires-Dist: data
+Requires-Dist: toml
+Requires-Dist: zope.interface
+Requires-Dist: transformers==4.30.0
+Requires-Dist: protobuf
+Requires-Dist: openai
+Requires-Dist: annoy
+Requires-Dist: pytrec_eval
+Requires-Dist: joblib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: ujson
+Requires-Dist: gitpython
+Provides-Extra: tf
+Requires-Dist: tensorflow>=2.2.0; extra == "tf"
+Requires-Dist: tensorflow-text; extra == "tf"
+Requires-Dist: tensorflow-hub; extra == "tf"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 <p align="center">
   <img src="dexter.png" />

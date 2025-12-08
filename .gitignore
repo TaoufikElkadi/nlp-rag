@@ -3,6 +3,7 @@ data/
 venv/
 *.json
 !retrieval_k*.json
+!predictions_*.json
 
 # Python
 __pycache__/

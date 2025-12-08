@@ -3,6 +3,7 @@ data/
 venv/
 *.json
 !retrieval_k*.json
+!predictions_*.json
 
 # Python
 __pycache__/
@@ -37,3 +38,6 @@ Thumbs.db
 # Test outputs
 *.log
 *.out
+
+#environment variables
+.env

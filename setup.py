@@ -41,7 +41,8 @@ setup(
         'tqdm',
         'pandas',
         "ujson",
-        "gitpython"
+        "gitpython",
+        "groq"
     ],
     extras_require = optional_packages,
     classifiers=[

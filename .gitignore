@@ -37,3 +37,6 @@ Thumbs.db
 # Test outputs
 *.log
 *.out
+
+#environment variables
+.env

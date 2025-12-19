@@ -34,6 +34,7 @@ Requires-Dist: tqdm
 Requires-Dist: pandas
 Requires-Dist: ujson
 Requires-Dist: gitpython
+Requires-Dist: groq
 Provides-Extra: tf
 Requires-Dist: tensorflow>=2.2.0; extra == "tf"
 Requires-Dist: tensorflow-text; extra == "tf"

@@ -16,6 +16,7 @@ tqdm
 pandas
 ujson
 gitpython
+groq
 
 [tf]
 tensorflow>=2.2.0

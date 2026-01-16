@@ -251,6 +251,24 @@ loader = RetrieverDataset("my-dataset","my-dataset-corpus",
 ```
 
 
+## Running Experiments
+
+Run negative sampling experiments:
+```bash
+python run_negative_experiments.py
+```
+
+Evaluate all experiments:
+```bash
+python evaluate_all_experiments.py
+```
+
+Generate visualizations:
+```bash
+python visualize_results.py
+```
+
+
 # Building your own retrievers
 
 To build your own retriever you can extend from the class bcqa/retriever/BaseRetriever.py and use it in your evaluation script.
